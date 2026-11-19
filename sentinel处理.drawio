@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="第 1 页">
+    <mxGraphModel dx="1008" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-2" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t-PsZ43nIACqRF5Bn5ZB-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="t-PsZ43nIACqRF5Bn5ZB-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-6" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t-PsZ43nIACqRF5Bn5ZB-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="t-PsZ43nIACqRF5Bn5ZB-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="确认研究区边界" vertex="1">
+          <mxGeometry height="50" width="100" x="110" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-4" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t-PsZ43nIACqRF5Bn5ZB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="t-PsZ43nIACqRF5Bn5ZB-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="gee下载s2影像" vertex="1">
+          <mxGeometry height="50" width="100" x="110" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-10" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t-PsZ43nIACqRF5Bn5ZB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="t-PsZ43nIACqRF5Bn5ZB-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="py提取植被指数&lt;br&gt;和纹理特征" vertex="1">
+          <mxGeometry height="50" width="100" x="110" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-8" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t-PsZ43nIACqRF5Bn5ZB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="t-PsZ43nIACqRF5Bn5ZB-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="下载s1影像" vertex="1">
+          <mxGeometry height="50" width="100" x="240" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-12" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t-PsZ43nIACqRF5Bn5ZB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="t-PsZ43nIACqRF5Bn5ZB-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-7" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="下载s1影像" vertex="1">
+          <mxGeometry height="50" width="100" x="240" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-9" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="整合到30m渔网" vertex="1">
+          <mxGeometry height="50" width="100" x="110" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="t-PsZ43nIACqRF5Bn5ZB-11" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="先对齐or&lt;br&gt;先计算特征" vertex="1">
+          <mxGeometry height="50" width="100" x="240" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
