@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="5q-JiXyovxT4wwhGp3Ua">
-    <mxGraphModel dx="1754" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1169" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="d6D4l6lIisd65yfLRVE4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=12;" value="&lt;font&gt;逐步回归&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="320" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=12;" value="&lt;font&gt;L2岭回归&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="320" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=12;" value="&lt;font&gt;L1 lasso回归&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="320" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=12;" value="&lt;font&gt;弹性网络&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="320" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;strokeColor=#808080;multiple=0;glass=0;shadow=0;roundedPerimeter=1;dashed=1;fontSize=12;" value="回归模型" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;strokeColor=#808080;multiple=0;glass=0;shadow=0;roundedPerimeter=1;dashed=1;fontSize=12;" value="lidar特征" vertex="1">
+          <mxGeometry height="30" width="60" x="555" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;strokeColor=#808080;multiple=0;glass=0;shadow=0;roundedPerimeter=1;dashed=1;fontSize=12;" value="1.5m高度阈值" vertex="1">
+          <mxGeometry height="30" width="80" x="430" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;strokeColor=#808080;multiple=0;glass=0;shadow=0;roundedPerimeter=1;dashed=1;fontSize=12;" value="回波模式" vertex="1">
+          <mxGeometry height="30" width="80" x="430" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=12;" value="&lt;font&gt;高度分位数&lt;br&gt;H20、H25...&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="105" x="510" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=12;" value="Hmean、Hstd、HIQ" vertex="1">
+          <mxGeometry height="55" width="105" x="510" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=12;" value="&lt;font&gt;高度分层占比&lt;br&gt;d2、d4...&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="105" x="510" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=12;" value="郁闭度c&lt;br&gt;高于1.5m占所有点比例" vertex="1">
+          <mxGeometry height="50" width="97.5" x="513.75" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;strokeColor=#808080;multiple=0;glass=0;shadow=0;roundedPerimeter=1;dashed=1;fontSize=12;" value="最佳结果" vertex="1">
+          <mxGeometry height="30" width="80" x="900" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="d6D4l6lIisd65yfLRVE4-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;strokeColor=#808080;multiple=0;glass=0;shadow=0;roundedPerimeter=1;dashed=1;fontSize=12;" value="实现细节" vertex="1">
+          <mxGeometry height="30" width="80" x="740" y="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
